@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.row-limit-size {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#logo {
+    float: left;
+}
+
+nav {
+    height: 50px;
+    width: 1200px;
+    float: right;
+}
+
+ul>li {
+    list-style-type: none;
+    float: left;
+    padding: 35px 15px;
+    font-family: 'Tahoma';
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    height: 25px;
+}
+
+ul>li>a:hover {
+    color: red;
+    border-bottom: 1px solid black;
+}
+
+#catalogue {
+    color: red;
+}
+
+#contact {
+    height: 30px;
+    width: 75px;
+    background-color: red;
+    color: whitesmoke;
+    border: 1px solid red;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#contact:hover {
+    background-color: white;
+    border: solid 2px red;
+    color: red;
+}
+
+ul>li:hover>ul {
+    display: block;
+}
+
+ul>li>ul {
+    display: none;
+    background-color: white;
+    position: absolute;
+    height: 255px;
+    width: 300px;
+}
+
+
+#header {
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px solid rgba(37, 36, 36, 0.157);
+}
+
+#content {
+    clear: both;
+    height: 800px;
+    background: url(../IMG/bg-header.webp) center/ cover;
+    text-align: center;
+}
+
+#white-logo {
+    padding: 50px 0;
+}
+
+h1 {
+    font-weight: bolder;
+    color: salmon;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 250%;
+    padding: 35px 0 0 0;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-weight: bold;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 75px;
+    text-transform: uppercase;
+}
+
+#content p {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    padding: 15px 0;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 15px 0;
+}
+
+#categorie p {
+    text-align: center;
+    color: gray;
+    font-family: monospace;
+}
+
+span {
+    font-weight: bolder;
+}
+
+#container {
+    margin: 50px 200px;
+}
+
+.categories {
+    height: 350px;
+    width: 435px;
+    background-color: rgba(117, 117, 117, 0.119);
+    float: left;
+    margin: 10px;
+    overflow: visible;
+    border-radius: 3%;
+}
+
+.pastilles {
+    float: left;
+    margin: 15px;
+}
+
+.liens-images {
+    float: left;
+}
+
+h4 {
+    font-size: x-large;
+    font-family: monospace;
+    padding: 150px 0 10px 70px;
+}
+
+.categories p {
+    font-family: monospace;
+    color: gray;
+    padding: 0 70px;
+}
